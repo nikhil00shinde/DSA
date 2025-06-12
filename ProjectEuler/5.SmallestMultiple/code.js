@@ -24,4 +24,4 @@ let smallestMult = (n)=>{
 	return ans
 }
 
-console.log("Result is: "+smallestMult(10))
+console.log("Result is: "+smallestMult(20))

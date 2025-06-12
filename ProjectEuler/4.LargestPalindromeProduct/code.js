@@ -36,4 +36,4 @@ let isPalindrome = (n)=>{
 }
 
 
-console.log("Result is : ",largestPalindromeProduct(2))
+console.log("Result is : ",largestPalindromeProduct(3))

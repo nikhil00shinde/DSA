@@ -36,7 +36,7 @@ let largestGridProduct = (grid) => {
         // console.log(i,j,grid[i][j] ,grid[i-1][j] ,grid[i-2][j]  ,grid[i-3][j])
       }
 
-      if(i <= grid[0].length-4){
+      if(i <= grid[0].length-){
         //down
         let temp = grid[i][j] * grid[i+1][j] * grid[i+2][j]  * grid[i+3][j] 
         ans = Math.max(ans,temp)
